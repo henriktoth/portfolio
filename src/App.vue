@@ -8,7 +8,7 @@ import Navbar from '@/components/Navbar.vue'
     { text: 'TANULMÁNYOK', url: '#' },
     { text: 'TAPASZTALAT', url: '#' },
     { text: 'TECHNOLÓGIÁK', url: '#' },
-    { text: 'CICÁK', url: '#' },
+    { text: 'PROJEKTEK', url: '#' },
   ]"/>
 </template>
 
