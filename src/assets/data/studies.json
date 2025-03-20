@@ -1,5 +1,6 @@
 [
     {
+        "type" : "study",
         "icon" : "material-symbols:book-2",
         "year": "2015-2020",
         "name": "Kispesti Deák Ferenc Gimnázium",
@@ -9,6 +10,7 @@
         ]
     },
     {
+        "type" : "study",
         "icon" : "ion:university",
         "year": "2021-2023",
         "name": "Pázmány Péter Katolikus Egyetem",
@@ -20,6 +22,7 @@
         ]
     },
     {
+        "type" : "study",
         "icon" : "ion:university",
         "year": "2023",
         "name": "Eötvös Loránd Tudományegyetem",

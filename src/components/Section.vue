@@ -2,7 +2,7 @@
 defineProps({
     title: {
         type: String,
-        default: "Tanulmányok",
+        default: "Section",
     },
 });
 </script>

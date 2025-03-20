@@ -1,0 +1,34 @@
+[
+    {
+        "type" : "job",
+        "icon" : "/work/starnetwork.png",
+        "year": "2018-2020",
+        "name": "Star Network MCN.",
+        "subname": "3D modellezés és animáció",
+        "data": [
+            "3D animációs filmek készítése"
+        ]
+    },
+    {
+        "type" : "job",
+        "icon" : "/work/katedra.png",
+        "year": "2021-2022",
+        "name": "Katedra Nyelviskola",
+        "subname": "Nyelvvizsga adminisztráció/felügyelet",
+        "data": [
+            "Írásbeli nyelvvizsgák lebonyolítása",
+            "Adminisztrációs munkák elvégzése"
+        ]
+    },
+    {
+        "type" : "job",
+        "icon" : "/work/verizon.png",
+        "year": "2022",
+        "name": "Verizon Hungary",
+        "subname": "Adatgenerálás és feldolgozás",
+        "data": [
+            "Képi és videós anyagok annotációja",
+            "Adatgenerálás AI eszközök fejlesztéséhez"
+        ]
+    }
+]

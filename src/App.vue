@@ -3,10 +3,10 @@ import Navbar from './components/Navbar.vue';
 import IntroCard from './components/IntroCard.vue';
 import FooterBar from './components/FooterBar.vue';
 import Seperator from './components/Seperator.vue';
-import SectionStudies from './components/SectionStudies.vue';
-import Study from './components/Study.vue';
+import Section from './components/Section.vue';
+import RefCard from './components/RefCard.vue';
 import studies from './assets/data/studies.json';
-
+import jobs from './assets/data/jobs.json';
 </script>
 
 <template>
@@ -25,18 +25,31 @@ import studies from './assets/data/studies.json';
               Különösen érdeklődöm a szoftverek kliensoldali fejlesztése iránt."
   profilePic="/pfp/profile_picture.png"/>
   <Seperator/>
-  <SectionStudies class="pb-20">
+  <Section title="Tanulmányok">
     <!-- Add studies entry at "@/assets/data/studies.json" -->
-    <Study
-      class="transition-transform duration-300 hover:scale-105 cursor-default"
+    <RefCard
       v-for="(study, index) in studies" 
       :key="index"
+      :type="study.type"
       :icon="study.icon"
       :year="study.year"
       :name="study.name"
       :subname="study.subname"
       :data='study.data'
     />
-  </SectionStudies>
+  </Section>
+  <Seperator/>
+  <Section title="Tapasztalat">
+    <RefCard
+      v-for="(job, index) in jobs" 
+      :key="index"
+      :type="job.type"
+      :icon="job.icon"
+      :year="job.year"
+      :name="job.name"
+      :subname="job.subname"
+      :data='job.data'
+    />
+  </Section>
   <FooterBar/>
 </template>
