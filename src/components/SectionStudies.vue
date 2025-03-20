@@ -8,9 +8,9 @@ defineProps({
 </script>
 
 <template>
-    <div>
-        <h2 class="text-3xl font-bold text-center mt-10">{{ title.toUpperCase() }}</h2>
-        <div class="flex justify-around">
+    <div class="pb-20">
+        <h2 class="text-4xl font-bold text-center mt-20 mb-10">{{ title.toUpperCase() }}</h2>
+        <div class="flex flex-wrap justify-center gap-5">
             <slot></slot>
         </div>
     </div>

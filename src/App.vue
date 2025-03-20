@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from 'vue';
 import Navbar from './components/Navbar.vue';
 import IntroCard from './components/IntroCard.vue';
 import FooterBar from './components/FooterBar.vue';
@@ -23,12 +22,16 @@ import studies from './assets/data/studies.json';
   description="Programtervező Informatikus szakon tanulok az ELTE Informatikai karán.
               Már gyerekkorom óta érdeklődtem az informatika világa iránt, és ez ma sincsen másként.
               Munkámban preciz és alapos vagyok, könnyen dolgozom csapatban, és szeretek érdekes projektekben részt venni.
-              Különösen érdeklődöm a szoftverek kliensoldali fejlesztése iránt."/>
+              Különösen érdeklődöm a szoftverek kliensoldali fejlesztése iránt."
+  profilePic="/pfp/profile_picture.png"/>
   <Seperator/>
-  <SectionStudies>
-    <Study 
+  <SectionStudies class="pb-20">
+    <!-- Add studies entry at "@/assets/data/studies.json" -->
+    <Study
+      class="transition-transform duration-300 hover:scale-105 cursor-default"
       v-for="(study, index) in studies" 
       :key="index"
+      :icon="study.icon"
       :year="study.year"
       :name="study.name"
       :subname="study.subname"
