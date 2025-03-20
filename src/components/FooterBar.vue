@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
     <div class="bg-neutral-800 m-2 rounded-2xl p-5 flex justify-between">

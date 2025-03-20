@@ -1,0 +1,28 @@
+[
+    {
+        "year": "2015-2020",
+        "name": "Kispesti Deák Ferenc Gimnázium",
+        "subname": "Angol specializációs osztály",
+        "data": [
+            "C1 komplex nyelvvizsga megszerzése"
+        ]
+    },
+    {
+        "year": "2021-2023",
+        "name": "Pázmány Péter Katolikus Egyetem",
+        "subname": "Kommunikáció -és Médiatudomány BA",
+        "data": [
+            "Public Relations specializáció",
+            "Nemzeti Felsőoktatási Ösztöndíj",
+            "Summa Cum Laude minősítés"
+        ]
+    },
+    {
+        "year": "2023",
+        "name": "Eötvös Loránd Tudományegyetem",
+        "subname": "Programtervező Informatikus BSc",
+        "data": [
+            "Szoftverfejlesztő specializáció"
+        ]
+    }
+]
