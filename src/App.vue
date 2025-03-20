@@ -7,6 +7,8 @@ import Section from './components/Section.vue';
 import RefCard from './components/RefCard.vue';
 import studies from './assets/data/studies.json';
 import jobs from './assets/data/jobs.json';
+import TechCard from './components/TechCard.vue';
+import techStack from './assets/data/techstack.json';
 </script>
 
 <template>
@@ -50,6 +52,18 @@ import jobs from './assets/data/jobs.json';
       :subname="job.subname"
       :data='job.data'
     />
+  </Section>
+  <Seperator/>
+  <Section title="Technológiák" subtitle="Programozási nyelvek és technológiák, melyeket egyetemi feladatok, projektmunkák keretein belül használtunk.">
+    <TechCard
+      v-for="(tech, index) in techStack"
+      :key="index"
+      :icon="tech.icon"
+      :name="tech.name"/>
+  </Section>
+  <Seperator/>
+  <Section title="Projektek" subtitle="Alkalmazások, melyeket az egyetemen és szabadidőmben készítettem.">  
+  
   </Section>
   <FooterBar/>
 </template>

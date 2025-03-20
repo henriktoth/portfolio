@@ -30,7 +30,7 @@ function toggleNav() {
 </script>
 
 <template>
-    <nav class="sticky top-2">
+    <nav class="sticky top-2 z-100">
 
         <div id="navbar" class="bg-neutral-800 m-2 rounded-2xl p-5 flex justify-between">
 
