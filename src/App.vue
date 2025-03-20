@@ -1,7 +1,7 @@
 <script setup>
 import Navbar from '@/components/Navbar.vue'
 import IntroCard from './components/IntroCard.vue';
-
+import FooterBar from './components/FooterBar.vue';
 </script>
 
 <template>
@@ -18,4 +18,5 @@ import IntroCard from './components/IntroCard.vue';
               Már gyerekkorom óta érdeklődtem az informatika világa iránt, és ez ma sincsen másként.
               Munkámban preciz és alapos vagyok, könnyen dolgozom csapatban, és szeretek érdekes projektekben részt venni.
               Különösen érdeklődöm a szoftverek kliensoldali fejlesztése iránt."/>
+  <FooterBar/>
 </template>
