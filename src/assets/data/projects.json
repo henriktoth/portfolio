@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Railways",
+    "techStack": ["bx:bxl-html5", "bx:bxl-css3", "ri:javascript-fill"],
+    "description": "A Railways egy javascript webalkalmazás, amelyben egy 5x5 vagy 7x7-es pályán, különböző szabályok betartásával egy olyan összefüggő sínhálózatot kell kialakítani, amely minden lehetséges mezőn áthalad. A program a legjobb eredményt elérő játékosok nevét és játékidejét elmenti egy ranglistába.",
+    "icon": "paste icon source here"
+  },
+  {
+    "name": "Car Rental",
+    "techStack": ["bx:bxl-html5", "bx:bxl-css3", "akar-icons:php-fill"],
+    "description": "A Car rental egy php alapú weboldal, amelyen bérelhető autók között tudunk válogatni, és kedvünkre szűrni az elérhető autók listájából. Megfelelő regisztráció és bejelentkezés esetén a felhasználó bérelhet is az elérhető autók közül. Adminisztrátori bejelentkezés esetén egy admin felületen törölhetünk autókat/foglalásokat, illetve létrehozhatunk címkét új, bérelhető autónak.",
+    "icon": "paste icon source here"
+  },
+  {
+    "name": "BFS Chess",
+    "techStack": ["mdi:language-python"],
+    "description": "A Bfs chess egy tkinter alapú python program, amely egy megadott dimenziójú sakktáblán szélességi bejárás segítségével képes egy startpozícióból egy végpozícióba a legrövidebb utat kirajzolni a huszár lépéseivel, miközben megadja a lépések számát is.",
+    "icon": "paste icon source here"
+  },
+  {
+    "name": "Labyrinth",
+    "techStack": ["mdi:language-java"],
+    "description": "A labyrinth egy java alapú labirintusjáték, ahol a játékos egy \"sárkány\" elől menekül a labirintusban, ami random bolyong a pályákon. A cél 10 labirintuson átjutni úgy, hogy a sárkány ne kapja el a játékost.",
+    "icon": "paste icon source here"
+  }
+]

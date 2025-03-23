@@ -1,38 +1,38 @@
 [
     {
-        "icon": "",
+        "icon": "bx:bxl-html5",
         "name": "HTML"
     },
     {
-        "icon": "",
+        "icon": "bx:bxl-css3",
         "name": "CSS"
     },
     {
-        "icon": "",
+        "icon": "ri:javascript-fill",
         "name": "JavaScript"
     },
     {
-        "icon": "",
+        "icon": "akar-icons:php-fill",
         "name": "PHP"
     },
     {
-        "icon": "",
+        "icon": "mdi:language-java",
         "name": "JAVA"
     },
     {
-        "icon": "",
+        "icon": "mdi:language-c",
         "name": "C"
     },
     {
-        "icon": "",
+        "icon": "mdi:language-cpp",
         "name": "C++"
     },
     {
-        "icon": "",
+        "icon": "mdi:language-csharp",
         "name": "C#"
     },
     {
-        "icon": "",
+        "icon": "mdi:language-python",
         "name": "Python"
     }
 ]
