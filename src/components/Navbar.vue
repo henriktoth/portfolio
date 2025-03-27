@@ -43,19 +43,20 @@ function toggleNav() {
                 class="cursor-pointer text-5xl relative bottom-1.5">☰</button>
             <ul  v-else class="flex gap-3">
                 <li v-for="link in links"
-                    class="hover:bg-neutral-600 px-2 py-3 rounded-xl w-[100%] flex items-center text-[14px]">
+                    class="hover:bg-neutral-600 px-2 py-3 rounded-xl w-[100%] flex items-center text-[14px] transition duration-250">
                     <a :href="link.url">{{ link.text }}</a>
                 </li>
             </ul>
 
         </div>
 
-        <ul v-if="isNavOpen" id="navbar-list" class="bg-neutral-800 m-2 rounded-2xl p-5 flex flex-col items-center text-sm
-                    absolute left-0 right-0 top-[100px] z-50">
-            <li v-for="link in links" class="hover:bg-neutral-600 px-2 py-3 rounded-xl w-[100%] text-center">
+        <transition name="fade">
+            <ul v-if="isNavOpen" id="navbar-list" class="bg-neutral-800 m-2 rounded-2xl p-5 flex flex-col items-center text-sm
+                absolute left-0 right-0 top-[100px] z-50">
+            <li v-for="link in links" class="hover:bg-neutral-600 px-2 py-3 rounded-xl w-[100%] text-center transition duration-250">
                 <a :href="link.url">{{ link.text }}</a>
             </li>
-        </ul>
-
+            </ul>
+        </transition>
     </nav>
 </template>

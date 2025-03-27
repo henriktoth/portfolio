@@ -1,16 +1,16 @@
 <script setup>
-import Navbar from './components/Navbar.vue';
-import IntroCard from './components/IntroCard.vue';
-import FooterBar from './components/FooterBar.vue';
-import Seperator from './components/Seperator.vue';
-import Section from './components/Section.vue';
-import RefCard from './components/RefCard.vue';
-import studies from './assets/data/studies.json';
-import jobs from './assets/data/jobs.json';
-import TechCard from './components/TechCard.vue';
-import techStack from './assets/data/techstack.json';
-import projects from './assets/data/projects.json'
-import { defineSSRCustomElement } from 'vue';
+import Navbar       from './components/Navbar.vue';
+import IntroCard    from './components/IntroCard.vue';
+import FooterBar    from './components/FooterBar.vue';
+import Seperator    from './components/Seperator.vue';
+import Section      from './components/Section.vue';
+import RefCard      from './components/RefCard.vue';
+import studies      from './assets/data/studies.json';
+import jobs         from './assets/data/jobs.json';
+import TechCard     from './components/TechCard.vue';
+import techStack    from './assets/data/techstack.json';
+import projects     from './assets/data/projects.json';
+import ProjectCard  from './components/ProjectCard.vue';
 </script>
 
 <template>
@@ -67,7 +67,7 @@ import { defineSSRCustomElement } from 'vue';
   <Section title="Projektek" subtitle="Alkalmazások, melyeket az egyetemen és szabadidőmben készítettem.">  
     <ProjectCard
     v-for="(project, index) in projects"
-    :key="index"
+    :key= "index"
     :name = "project.name"
     :techstack = "project.techStack"
     :description = "project.description"
