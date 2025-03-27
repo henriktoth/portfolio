@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 #navbar, #navbar-list{
   color: #FFFFFF;
 }
