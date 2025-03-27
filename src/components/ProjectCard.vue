@@ -6,6 +6,7 @@ defineProps({
     description: String,
     icon: String
 });
+
 </script>
 
 <template>
