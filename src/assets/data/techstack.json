@@ -12,8 +12,24 @@
         "name": "JavaScript"
     },
     {
+        "icon": "bxl:typescript",
+        "name": "TypeScript"
+    },
+    {
+        "icon": "mdi:vuejs",
+        "name": "VueJS"
+    },
+    {
+        "icon": "mdi:react",
+        "name": "ReactJS"
+    },
+    {
         "icon": "akar-icons:php-fill",
         "name": "PHP"
+    },
+    {
+        "icon": "tabler:brand-laravel",
+        "name": "Laravel"
     },
     {
         "icon": "mdi:language-java",
