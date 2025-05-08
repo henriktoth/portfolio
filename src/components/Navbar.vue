@@ -1,5 +1,7 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
+
+
 const isNavOpen = ref(false);
 const windowWidth = ref(window.innerWidth);
 
@@ -33,7 +35,6 @@ function toggleNav() {
     <nav class="sticky top-2 z-100">
 
         <div id="navbar" class="bg-neutral-800 m-2 rounded-2xl p-5 flex justify-between">
-
             <div class="flex flex-col max-w-40 items-center">
                 <h1 class="text-2xl font-bold tracking-wide">PORTFOLIO</h1>
                 <p class="text-[12px] bg-neutral-600 p-1 rounded-lg tracking-[0.4em]">TÓTH HENRIK</p>

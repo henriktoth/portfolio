@@ -36,3 +36,30 @@ html {
 .fade-enter-from, .fade-leave-to {
   opacity: 0;
 }
+
+/* Dark mode styles */
+.dark {
+  @apply bg-neutral-900 text-white;
+}
+
+.dark .border-3 {
+  @apply border-neutral-700;
+}
+
+.dark .bg-neutral-800 {
+  @apply bg-neutral-700;
+}
+
+.dark .hover\:bg-neutral-600:hover {
+  @apply hover:bg-neutral-500;
+}
+
+.dark .profile-border {
+  background:
+    linear-gradient(to right, rgb(64, 64, 64) 7px, transparent 7px) 0 0,
+    linear-gradient(to left, rgb(64, 64, 64) 7px, transparent 7px) 100% 100%,
+    linear-gradient(to bottom, rgb(64, 64, 64) 7px, transparent 7px) 0 0,
+    linear-gradient(to top, rgb(64, 64, 64) 7px, transparent 7px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+}

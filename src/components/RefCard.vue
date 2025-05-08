@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="flex flex-col items-center border-3 rounded-2xl p-5 min-w-[400px]
+    <div class="flex flex-col items-center border-3 rounded-2xl p-5 md:min-w-[400px] min-w-[350px]
                 transition-transform duration-300 hover:scale-105 cursor-default">
         <Icon v-if="type == 'study'" class="pb-5" :icon="icon" width="128" height="128" />
         <img v-else class="pb-5" :src="icon" width="128" height="128">

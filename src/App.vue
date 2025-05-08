@@ -11,6 +11,7 @@ import TechCard     from './components/TechCard.vue';
 import techStack    from './assets/data/techstack.json';
 import projects     from './assets/data/projects.json';
 import ProjectCard  from './components/ProjectCard.vue';
+
 </script>
 
 <template>
