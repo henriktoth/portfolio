@@ -30,7 +30,6 @@ import ProjectCard  from './components/ProjectCard.vue';
   profilePic="/pfp/profile_picture.png"/>
   <Seperator id="s1"/>
   <Section title="Tanulmányok">
-    <!-- Add studies entry at "@/assets/data/studies.json" -->
     <RefCard
       v-for="(study, index) in studies" 
       :key="index"
@@ -69,7 +68,7 @@ import ProjectCard  from './components/ProjectCard.vue';
     v-for="(project, index) in projects"
     :key= "index"
     :name = "project.name"
-    :techstack = "project.techStack"
+    :techStack = "project.techStack"
     :description = "project.description"
     :icon = "project.icon"/>
   </Section>

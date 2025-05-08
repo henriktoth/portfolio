@@ -17,11 +17,11 @@
     },
     {
         "icon": "mdi:vuejs",
-        "name": "VueJS"
+        "name": "Vue"
     },
     {
         "icon": "mdi:react",
-        "name": "ReactJS"
+        "name": "React"
     },
     {
         "icon": "akar-icons:php-fill",

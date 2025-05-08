@@ -6,10 +6,10 @@
     "icon": "lucide:train-track"
   },
   {
-    "name": "Car Rental",
-    "techStack": ["bx:bxl-html5", "bx:bxl-css3", "akar-icons:php-fill"],
-    "description": "A Car rental egy php alapú weboldal, amelyen bérelhető autók között tudunk válogatni, és kedvünkre szűrni az elérhető autók listájából. Megfelelő regisztráció és bejelentkezés esetén a felhasználó bérelhet is az elérhető autók közül. Adminisztrátori bejelentkezés esetén egy admin felületen törölhetünk autókat/foglalásokat, illetve létrehozhatunk címkét új, bérelhető autónak.",
-    "icon": "material-symbols:car-tag"
+    "name": "Zoo",
+    "techStack": ["akar-icons:php-fill", "mdi:laravel"],
+    "description": "A Zoo egy laravellel készült nyilvántartó rendszer állatkertekhez. Az oldal képes karámokat, karámokhoz tartozó állatokat és gondozókat listázni, tárolni illetve a hozzájuk tartozó adatokat módosítani. A rendszer egyéb funkciója a karámok és állatok közötti kapcsolatok kezelése, valamint a karámok és állatokhoz tartozó adatok megjelenítése.",
+    "icon": "mdi:paw"
   },
   {
     "name": "BFS Chess",
