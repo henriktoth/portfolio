@@ -1,5 +1,11 @@
 [
   {
+    "name": "Safari Manager",
+    "techStack": ["bxl:typescript", "devicon-plain:tauri", "meteor-icons:gitlab"],
+    "description": "A Safari manager egy TypeScript alapú játék, amelyben a játékos egy safarit működtet állatok vásárlásával, túrák szervezésével illetve vadőrök foglalkoztatásával. A játékot Tauri segítségével futtatható állománnyá alakítottuk, verziókezelését GitLab segítségével végeztük.",
+    "icon": "emojione-monotone:lion-face"
+  },
+  {
     "name": "Railways",
     "techStack": ["bx:bxl-html5", "bx:bxl-css3", "ri:javascript-fill"],
     "description": "A Railways egy javascript webalkalmazás, amelyben egy 5x5 vagy 7x7-es pályán, különböző szabályok betartásával egy olyan összefüggő sínhálózatot kell kialakítani, amely minden lehetséges mezőn áthalad. A program a legjobb eredményt elérő játékosok nevét és játékidejét elmenti egy ranglistába.",
