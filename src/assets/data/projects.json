@@ -6,16 +6,22 @@
     "icon": "emojione-monotone:lion-face"
   },
   {
-    "name": "Railways",
-    "techStack": ["bx:bxl-html5", "bx:bxl-css3", "ri:javascript-fill"],
-    "description": "A Railways egy javascript webalkalmazás, amelyben egy 5x5 vagy 7x7-es pályán, különböző szabályok betartásával egy olyan összefüggő sínhálózatot kell kialakítani, amely minden lehetséges mezőn áthalad. A program a legjobb eredményt elérő játékosok nevét és játékidejét elmenti egy ranglistába.",
-    "icon": "lucide:train-track"
+    "name": "Tikera",
+    "techStack": ["mdi:react"],
+    "description": "A tikera egy webalkalmazás frontend része, amely egy mozi jegyértékesítő rendszer demo-ját hivatott bemutatni. A felhasználók képesek helyeket foglalni és jegyeket vásárolni a kiválasztott filmre.",
+    "icon": "mdi:movie-open"
   },
   {
     "name": "Zoo",
     "techStack": ["akar-icons:php-fill", "mdi:laravel"],
     "description": "A Zoo egy laravellel készült nyilvántartó rendszer állatkertekhez. Az oldal képes karámokat, karámokhoz tartozó állatokat és gondozókat listázni, tárolni illetve a hozzájuk tartozó adatokat módosítani. A rendszer egyéb funkciója a karámok és állatok közötti kapcsolatok kezelése, valamint a karámok és állatokhoz tartozó adatok megjelenítése.",
     "icon": "mdi:paw"
+  },
+  {
+    "name": "Railways",
+    "techStack": ["bx:bxl-html5", "bx:bxl-css3", "ri:javascript-fill"],
+    "description": "A Railways egy javascript webalkalmazás, amelyben egy 5x5 vagy 7x7-es pályán, különböző szabályok betartásával egy olyan összefüggő sínhálózatot kell kialakítani, amely minden lehetséges mezőn áthalad. A program a legjobb eredményt elérő játékosok nevét és játékidejét elmenti egy ranglistába.",
+    "icon": "lucide:train-track"
   },
   {
     "name": "BFS Chess",
