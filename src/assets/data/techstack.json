@@ -32,16 +32,12 @@
         "name": "Laravel"
     },
     {
+        "icon": "mdi:nodejs",
+        "name": "Node.js"
+    },
+    {
         "icon": "mdi:language-java",
         "name": "JAVA"
-    },
-    {
-        "icon": "mdi:language-c",
-        "name": "C"
-    },
-    {
-        "icon": "mdi:language-cpp",
-        "name": "C++"
     },
     {
         "icon": "mdi:language-csharp",
@@ -50,5 +46,13 @@
     {
         "icon": "mdi:language-python",
         "name": "Python"
+    },
+    {
+        "icon": "tabler:file-type-sql",
+        "name": "SQL"
+    },
+    {
+        "icon": "mdi:git",
+        "name": "Git"
     }
 ]

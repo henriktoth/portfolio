@@ -56,7 +56,7 @@ import ProjectCard  from './components/ProjectCard.vue';
     />
   </Section>
   <Seperator id="s3"/>
-  <Section title="Technológiák" subtitle="Programozási nyelvek és keretrendszerek, melyeket egyetemi feladatok, projektmunkák keretein belül használtunk.">
+  <Section title="Technológiák" subtitle="Technológiák, melyeket egyetemi feladatok, projektmunkák keretein belül használtunk.">
     <TechCard
       v-for="(tech, index) in techStack"
       :key="index"
