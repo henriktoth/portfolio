@@ -36,6 +36,10 @@
         "name": "Node.js"
     },
     {
+        "icon": "ri:nextjs-fill",
+        "name": "Next.js"
+    },
+    {
         "icon": "mdi:language-java",
         "name": "JAVA"
     },

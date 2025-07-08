@@ -4,7 +4,8 @@ defineProps({
     name: String,
     techStack: Array,
     description: String,
-    icon: String
+    icon: String,
+    href: String
 });
 
 </script>
@@ -18,7 +19,7 @@ defineProps({
             </div>
             <p class="text-justify mt-4"> {{ description }}</p>
             <div class="flex justify-center md:justify-start mt-auto">
-                <button class="flex justify-center bg-neutral-800 hover:bg-neutral-600 hover:cursor-pointer text-white py-2 px-10 my-5 rounded-2xl w-[50%]">Forráskód</button>
+                <a :href="href" target="_blank" class="flex justify-center bg-neutral-800 hover:bg-neutral-600 hover:cursor-pointer text-white py-2 px-10 my-5 rounded-2xl w-[50%] no-underline">Forráskód</a>
             </div>
         </div>
         <div class="flex justify-center w-full md:w-auto">

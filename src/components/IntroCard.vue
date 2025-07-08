@@ -29,7 +29,7 @@ onBeforeUnmount(() => {
             <p class="text-justify max-w-[85%] text-sm md:text-base">{{ description }}</p>
         </div>
         <div class="w-[300px] md:w-[450px] p-5 profile-border">
-            <img :src="profilePic" alt="profile picture" class="w-full h-auto">
+            <img :src="profilePic" alt="profile picture" class="w-full h-auto profile-picture">
         </div>
     </div>
 </template>

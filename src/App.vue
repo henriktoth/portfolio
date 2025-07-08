@@ -71,7 +71,8 @@ import ProjectCard  from './components/ProjectCard.vue';
     :name = "project.name"
     :techStack = "project.techStack"
     :description = "project.description"
-    :icon = "project.icon"/>
+    :icon = "project.icon"
+    :href = "project.href"/>
   </Section>
   <FooterBar/>
 </template>
