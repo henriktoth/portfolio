@@ -16,7 +16,7 @@ defineProps({
         <Icon v-if="type == 'study'" class="pb-5" :icon="icon" width="128" height="128" />
         <img v-else class="pb-5" :src="icon" width="128" height="128">
         <p class="text-md font-bold pb-3">{{ year }}</p>
-        <p class="text-2xl"> {{ name }}</p>
+        <p class="text-2xl text-center"> {{ name }}</p>
         <p class="pb-5"> {{ subname }}</p>
         <div>
             <ul class="list-disc pl-5">

@@ -23,12 +23,12 @@
     {
         "type" : "job",
         "icon" : "/work/verizon.png",
-        "year": "2022",
+        "year": "2022-",
         "name": "Verizon Hungary",
         "subname": "AI Developement Support Assistant",
         "data": [
-            "Képi és videós anyagok annotációja",
-            "Adatgenerálás AI eszközök fejlesztéséhez"
+            "Adatgenerálás AI eszközök fejlesztéséhez",
+            "AI generált adatok validációja"
         ]
     }
 ]

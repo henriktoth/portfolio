@@ -2,43 +2,49 @@
   {
     "name": "Safari Manager",
     "techStack": ["bxl:typescript", "devicon-plain:tauri", "meteor-icons:gitlab"],
-    "description": "A Safari manager egy TypeScript alapú játék, amelyben a játékos egy safarit működtet állatok vásárlásával, túrák szervezésével illetve vadőrök foglalkoztatásával. A játékot Tauri segítségével futtatható állománnyá alakítottuk, verziókezelését GitLab segítségével végeztük.",
+    "description": "A Safari manager egy TypeScript alapú játék, amelyben a játékos egy safarit működtet állatok vásárlásával, túrák szervezésével illetve vadőrök foglalkoztatásával. A játékot hárman fejlesztettük a szoftvertechnológia óra keretein belül. Tauri segítségével futtatható állománnyá alakítottuk, verziókezelését GitLab segítségével végeztük.",
     "icon": "emojione-monotone:lion-face",
-    "href": "https://github.com/henriktoth/safarimanager"
+    "github": "https://github.com/henriktoth/safarimanager",
+    "demo": "" 
   },
   {
     "name": "Tikera",
     "techStack": ["mdi:react"],
     "description": "A tikera egy webalkalmazás frontend része, amely egy mozi jegyértékesítő rendszer demo-ját hivatott bemutatni. A felhasználók képesek helyeket foglalni és jegyeket vásárolni a kiválasztott filmre.",
     "icon": "mdi:movie-open",
-    "href": "https://github.com/henriktoth/tikera"
+    "github": "https://github.com/henriktoth/tikera",
+    "demo": "https://tikera-swart.vercel.app/" 
   },
   {
     "name": "Zoo",
     "techStack": ["mdi:laravel"],
     "description": "A Zoo egy laravellel készült nyilvántartó rendszer állatkertekhez. Az oldal képes karámokat, karámokhoz tartozó állatokat és gondozókat listázni, tárolni illetve a hozzájuk tartozó adatokat módosítani. A rendszer egyéb funkciója a karámok és állatok közötti kapcsolatok kezelése, valamint a karámok és állatokhoz tartozó adatok megjelenítése.",
     "icon": "mdi:paw",
-    "href": "https://github.com/henriktoth/zoo"
+    "github": "https://github.com/henriktoth/zoo",
+    "demo": ""
   },
   {
     "name": "Railways",
     "techStack": ["bx:bxl-html5", "bx:bxl-css3", "ri:javascript-fill"],
     "description": "A Railways egy javascript webalkalmazás, amelyben egy 5x5 vagy 7x7-es pályán, különböző szabályok betartásával egy olyan összefüggő sínhálózatot kell kialakítani, amely minden lehetséges mezőn áthalad. A program a legjobb eredményt elérő játékosok nevét és játékidejét elmenti egy ranglistába.",
     "icon": "lucide:train-track",
-    "href": "https://github.com/henriktoth/railways"
+    "github": "https://github.com/henriktoth/railways",
+    "demo": ""
   },
   {
     "name": "BFS Chess",
     "techStack": ["mdi:language-python"],
     "description": "A Bfs chess egy tkinter alapú python program, amely egy megadott dimenziójú sakktáblán szélességi bejárás segítségével képes egy startpozícióból egy végpozícióba a legrövidebb utat kirajzolni a huszár lépéseivel, miközben megadja a lépések számát is.",
     "icon": "streamline:chess-knight-solid",
-    "href": "https://github.com/henriktoth/bfs-chess"
+    "github": "https://github.com/henriktoth/bfs-chess",
+    "demo": ""
   },
   {
     "name": "Labyrinth",
     "techStack": ["mdi:language-java"],
     "description": "A labyrinth egy java alapú labirintusjáték, ahol a játékos egy \"sárkány\" elől menekül a labirintusban, ami random bolyong a pályákon. A cél 10 labirintuson átjutni úgy, hogy a sárkány ne kapja el a játékost.",
     "icon": "hugeicons:maze",
-    "href": "https://github.com/henriktoth/labyrinthgame"
+    "github": "https://github.com/henriktoth/labyrinthgame",
+    "demo": ""
   }
 ]

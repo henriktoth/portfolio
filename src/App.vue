@@ -56,7 +56,7 @@ import ProjectCard  from './components/ProjectCard.vue';
     />
   </Section>
   <Seperator id="s3"/>
-  <Section title="Technológiák" subtitle="Technológiák, melyeket egyetemi feladatok, projektmunkák keretein belül használtunk.">
+  <Section title="Technológiák" subtitle="Technológiák, melyeket egyetemi feladatok, projektmunkák keretein belül használtam.">
     <TechCard
       v-for="(tech, index) in techStack"
       :key="index"
@@ -72,7 +72,8 @@ import ProjectCard  from './components/ProjectCard.vue';
     :techStack = "project.techStack"
     :description = "project.description"
     :icon = "project.icon"
-    :href = "project.href"/>
+    :github = "project.github"
+    :demo = "project.demo"/>
   </Section>
   <FooterBar/>
 </template>

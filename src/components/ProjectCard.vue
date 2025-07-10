@@ -5,7 +5,8 @@ defineProps({
     techStack: Array,
     description: String,
     icon: String,
-    href: String
+    github: String,
+    demo: String
 });
 
 </script>
@@ -18,8 +19,9 @@ defineProps({
                 <Icon v-for="(iconName, index) in techStack" :key="index" :icon="iconName" width="32" height="32" />
             </div>
             <p class="text-justify mt-4"> {{ description }}</p>
-            <div class="flex justify-center md:justify-start mt-auto">
-                <a :href="href" target="_blank" class="flex justify-center bg-neutral-800 hover:bg-neutral-600 hover:cursor-pointer text-white py-2 px-10 my-5 rounded-2xl w-[50%] no-underline">Forráskód</a>
+            <div class="flex items-center justify-center md:justify-start mt-auto gap-4 py-5">
+                <a :href="github" target="_blank" class="flex justify-center bg-neutral-800 hover:bg-blue-500 hover:cursor-pointer text-white py-2 px-10 rounded-2xl no-underline w-24">Forráskód</a>
+                <a v-if="demo" :href="demo" target="_blank" class="flex justify-center bg-neutral-800 hover:bg-emerald-600 hover:cursor-pointer text-white py-2 px-10 rounded-2xl no-underline w-24">DEMO</a>
             </div>
         </div>
         <div class="flex justify-center w-full md:w-auto">
