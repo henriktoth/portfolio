@@ -28,7 +28,8 @@
         "subname": "AI Developement Support Assistant",
         "data": [
             "Adatgenerálás AI eszközök fejlesztéséhez",
-            "AI generált adatok validációja"
+            "AI generált adatok validációja",
+            "Adatfeldolgozó szoftver manuális tesztelése"
         ]
     }
 ]
