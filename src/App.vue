@@ -69,6 +69,7 @@ import ProjectCard  from './components/ProjectCard.vue';
     v-for="(project, index) in projects"
     :key= "index"
     :name = "project.name"
+    :isInDev = "project.isInDev"
     :techStack = "project.techStack"
     :description = "project.description"
     :icon = "project.icon"
