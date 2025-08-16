@@ -16,7 +16,7 @@ defineProps({
     <div class="border-3 rounded-2xl flex flex-col md:flex-row justify-around items-center w-full md:max-w-[50%] min-h-[350px] p-5 gap-5">
         <div class="flex flex-col justify-center w-full md:w-[50%] min-h-[400px] py-5">
             <p class="text-2xl uppercase font-bold mb-2 text-center md:text-left">{{ name }}</p>
-            <p class="text-sm text-center text-white bg-red-500 w-fit p-2 mb-2 rounded-md" v-if="isInDev">IN DEVELOPMENT</p>
+            <p class="text-sm text-center text-white bg-red-500 w-fit p-2 mb-2 rounded-md self-center md:self-start" v-if="isInDev">IN DEVELOPMENT</p>
             <div class="flex flex-wrap items-center justify-center md:justify-start gap-2">
                 <Icon v-for="(iconName, index) in techStack" :key="index" :icon="iconName" width="32" height="32" />
             </div>
