@@ -6,16 +6,20 @@
     "description": "A burger.CO egy React alapú weboldal frontend része, amely egy étterem honlapját hivatott bemutatni. A felhasználók képesek az étterem menüjét megtekinteni, a számukra megfelelő ételeket kiválasztani és megrendelni.",
     "icon": "mdi:hamburger",
     "github": "https://github.com/henriktoth/burgerco",
-    "demo": "" 
+    "demo": "https://burgerco.vercel.app/"
   },
   {
     "name": "Safari Manager",
     "isInDev": false,
-    "techStack": ["bxl:typescript", "devicon-plain:tauri", "meteor-icons:gitlab"],
+    "techStack": [
+      "bxl:typescript",
+      "devicon-plain:tauri",
+      "meteor-icons:gitlab"
+    ],
     "description": "A Safari manager egy TypeScript alapú játék, amelyben a játékos egy safarit működtet állatok vásárlásával, túrák szervezésével illetve vadőrök foglalkoztatásával. A játékot hárman fejlesztettük a szoftvertechnológia óra keretein belül. Tauri segítségével futtatható állománnyá alakítottuk, verziókezelését GitLab segítségével végeztük. A játékot csapatban, két másik szaktársammal készítettük el.",
     "icon": "emojione-monotone:lion-face",
     "github": "https://github.com/henriktoth/safarimanager",
-    "demo": "https://safarimanager.vercel.app/" 
+    "demo": "https://safarimanager.vercel.app/"
   },
   {
     "name": "Tikera",
@@ -24,7 +28,7 @@
     "description": "A tikera egy webalkalmazás frontend része, amely egy mozi jegyértékesítő rendszer demo-ját hivatott bemutatni. A felhasználók képesek helyeket foglalni és jegyeket vásárolni a kiválasztott filmre.",
     "icon": "mdi:movie-open",
     "github": "https://github.com/henriktoth/tikera",
-    "demo": "https://tikera-swart.vercel.app/" 
+    "demo": "https://tikera-swart.vercel.app/"
   },
   {
     "name": "Railways",
