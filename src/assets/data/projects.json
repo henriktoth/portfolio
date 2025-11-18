@@ -1,8 +1,18 @@
 [
   {
+    "id": "visalp",
+    "name": "VISALP.hu",
+    "isInDev": false,
+    "techStack": ["lineicons:svelte", "ri:javascript-fill"],
+    "description": "A VISALP.hu egy Svelte alapú weboldal, amelyre a saját alkalmazásaimat töltöm fel produktivitás és tudatosság témakörben. Szeretnék olyan alkalmazásokat fejleszteni amelyek bizonyos feladatokat egyszerűbbé tesznek, produktivitásra, rendezettségre inspirálnak, vagy a tudatosságot segítik elő a felhasználók mindennapjaiban.",
+    "icon": "simple-icons:ollama",
+    "github": "https://github.com/henriktoth/visalpweb",
+    "demo": "https://visalp.hu/"
+  },
+  {
     "id": "burgerco",
     "name": "burger.CO",
-    "isInDev": true,
+    "isInDev": false,
     "techStack": ["mdi:react", "bxl:typescript"],
     "description": "A burger.CO egy React alapú weboldal frontend része, amely egy étterem honlapját hivatott bemutatni. A felhasználók képesek az étterem menüjét megtekinteni, a számukra megfelelő ételeket kiválasztani és megrendelni.",
     "icon": "mdi:hamburger",

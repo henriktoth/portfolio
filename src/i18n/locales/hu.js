@@ -70,6 +70,9 @@ export default {
         }
     },
     projects: {
+        visalp: {
+            description: "A VISALP.hu egy Svelte alapú weboldal, amelyre a saját alkalmazásaimat töltöm fel produktivitás és tudatosság témakörben. Szeretnék olyan alkalmazásokat fejleszteni amelyek bizonyos feladatokat egyszerűbbé tesznek, produktivitásra, rendezettségre inspirálnak, vagy a tudatosságot segítik elő a felhasználók mindennapjaiban.",
+        },
         burgerco: {
             description: "A burger.CO egy React alapú weboldal frontend része, amely egy étterem honlapját hivatott bemutatni. A felhasználók képesek az étterem menüjét megtekinteni, a számukra megfelelő ételeket kiválasztani és megrendelni."
         },

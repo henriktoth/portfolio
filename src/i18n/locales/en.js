@@ -70,6 +70,10 @@ export default {
         }
     },
     projects: {
+        visalp: {
+            description: "VISALP.hu is a Svelte-based website where I upload my own applications focused on productivity and mindfulness. I aim to develop applications that simplify certain tasks, inspire productivity and organization, or promote mindfulness in users' daily lives.",
+
+        },
         burgerco: {
             description: "Burger.CO is the frontend part of a React-based website designed to showcase a restaurant. Users can view the restaurant's menu, select dishes, and place orders."
         },

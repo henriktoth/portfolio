@@ -1,62 +1,62 @@
 [
-    {
-        "icon": "bx:bxl-html5",
-        "name": "HTML"
-    },
-    {
-        "icon": "bx:bxl-css3",
-        "name": "CSS"
-    },
-    {
-        "icon": "ri:javascript-fill",
-        "name": "JavaScript"
-    },
-    {
-        "icon": "bxl:typescript",
-        "name": "TypeScript"
-    },
-    {
-        "icon": "mdi:vuejs",
-        "name": "Vue"
-    },
-    {
-        "icon": "mdi:react",
-        "name": "React"
-    },
-    {
-        "icon": "akar-icons:php-fill",
-        "name": "PHP"
-    },
-    {
-        "icon": "tabler:brand-laravel",
-        "name": "Laravel"
-    },
-    {
-        "icon": "mdi:nodejs",
-        "name": "Node.js"
-    },
-    {
-        "icon": "ri:nextjs-fill",
-        "name": "Next.js"
-    },
-    {
-        "icon": "mdi:language-java",
-        "name": "JAVA"
-    },
-    {
-        "icon": "mdi:language-csharp",
-        "name": "C#"
-    },
-    {
-        "icon": "mdi:language-python",
-        "name": "Python"
-    },
-    {
-        "icon": "tabler:file-type-sql",
-        "name": "SQL"
-    },
-    {
-        "icon": "mdi:git",
-        "name": "Git"
-    }
+  {
+    "icon": "bx:bxl-html5",
+    "name": "HTML"
+  },
+  {
+    "icon": "bx:bxl-css3",
+    "name": "CSS"
+  },
+  {
+    "icon": "ri:javascript-fill",
+    "name": "JavaScript"
+  },
+  {
+    "icon": "bxl:typescript",
+    "name": "TypeScript"
+  },
+  {
+    "icon": "mdi:react",
+    "name": "React"
+  },
+  {
+    "icon": "mdi:vuejs",
+    "name": "Vue"
+  },
+  {
+    "icon": "lineicons:svelte",
+    "name": "Svelte"
+  },
+  {
+    "icon": "mdi:nodejs",
+    "name": "Node.js"
+  },
+  {
+    "icon": "ri:nextjs-fill",
+    "name": "Next.js"
+  },
+  {
+    "icon": "mdi:language-java",
+    "name": "JAVA"
+  },
+  {
+    "icon": "mdi:language-csharp",
+    "name": "C#"
+  },
+  {
+    "icon": "mdi:language-python",
+    "name": "Python"
+  },
+  {
+    "icon": "tabler:file-type-sql",
+    "name": "SQL"
+  },
+  {
+    "icon": "mdi:docker",
+    "name": "Docker"
+  },
+  {
+    "icon": "mdi:git",
+    "name": "Git"
+  }
 ]
