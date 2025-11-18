@@ -29,7 +29,7 @@ export default {
             sourceCode: "Forráskód",
         },
     },
-    job: {
+    study: {
         kdfg: {
             name: "Kispesti Deák Ferenc Gimnázium",
             subname: "Angol nyelvi tagozat",
@@ -48,7 +48,7 @@ export default {
             data_specialization: "Szoftverfejlesztő specializáció"
         }
     },
-    study: {
+    job: {
         starnetwork: {
             name: "Star Network MCN.",
             subname: "3D modellező és animátor",
