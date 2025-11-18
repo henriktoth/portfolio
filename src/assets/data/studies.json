@@ -1,34 +1,29 @@
 [
-    {
-        "type" : "study",
-        "icon" : "material-symbols:book-2",
-        "year": "2015-2020",
-        "name": "Kispesti Deák Ferenc Gimnázium",
-        "subname": "Angol specializációs osztály",
-        "data": [
-            "C1 komplex nyelvvizsga megszerzése"
-        ]
-    },
-    {
-        "type" : "study",
-        "icon" : "ion:university",
-        "year": "2021-2023",
-        "name": "Pázmány Péter Katolikus Egyetem",
-        "subname": "Kommunikáció -és Médiatudomány BA",
-        "data": [
-            "Public Relations specializáció",
-            "Nemzeti Felsőoktatási Ösztöndíj",
-            "Summa Cum Laude minősítés"
-        ]
-    },
-    {
-        "type" : "study",
-        "icon" : "ion:university",
-        "year": "2023-",
-        "name": "Eötvös Loránd Tudományegyetem",
-        "subname": "Programtervező Informatikus BSc",
-        "data": [
-            "Szoftverfejlesztő specializáció"
-        ]
-    }
+  {
+    "id": "kdfg",
+    "type": "study",
+    "icon": "material-symbols:book-2",
+    "year": "2015-2020",
+    "name": "Kispesti Deák Ferenc Gimnázium",
+    "subname": "Angol specializációs osztály",
+    "data": ["data_english"]
+  },
+  {
+    "id": "ppke",
+    "type": "study",
+    "icon": "ion:university",
+    "year": "2021-2023",
+    "name": "Pázmány Péter Katolikus Egyetem",
+    "subname": "Kommunikáció -és Médiatudomány BA",
+    "data": ["data_pr", "data_scholarship", "data_honors"]
+  },
+  {
+    "id": "elte",
+    "type": "study",
+    "icon": "ion:university",
+    "year": "2023-",
+    "name": "Eötvös Loránd Tudományegyetem",
+    "subname": "Programtervező Informatikus BSc",
+    "data": ["data_specialization"]
+  }
 ]

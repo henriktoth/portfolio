@@ -3,7 +3,10 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 import DarkModeSwitch from './DarkModeSwitch.vue';
 import { useI18n } from 'vue-i18n'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
+function setLanguage(lang) {
+    locale.value = lang
+}
 const isNavOpen = ref(false);
 const windowWidth = ref(window.innerWidth);
 
@@ -44,7 +47,8 @@ function handleLinkClick() {
             <div class="flex flex-row gap-5">
                 <div class="flex flex-col max-w-40 items-center">
                     <h1 class="text-2xl font-bold tracking-wide">PORTFOLIO</h1>
-                    <p class="text-[12px] bg-neutral-600 p-1 rounded-lg tracking-[0.4em]">TÓTH HENRIK</p>
+                    <p class="text-[12px] bg-neutral-600 p-1 rounded-lg tracking-[0.4em]">{{
+                        t('main.name').toUpperCase() }}</p>
                 </div>
                 <div class="flex flex-col justify-center">
                     <DarkModeSwitch class="max-h-[70%]" />
@@ -52,12 +56,21 @@ function handleLinkClick() {
             </div>
             <button id="nav-button" v-if="windowWidth < 900" @click="toggleNav"
                 class="cursor-pointer text-5xl relative bottom-1.5">☰</button>
-            <ul v-else class="flex gap-3">
-                <li v-for="link in links"
-                    class="hover:bg-neutral-600 px-2 py-3 rounded-xl w-[100%] flex items-center text-[14px] transition duration-250">
-                    <a :href="link.url">{{ link.text }}</a>
-                </li>
-            </ul>
+            <div v-else class="flex items-center gap-3">
+                <ul class="flex gap-3">
+                    <li v-for="link in links"
+                        class="hover:bg-neutral-600 px-2 py-3 rounded-xl w-[100%] flex items-center text-[14px] transition duration-250">
+                        <a :href="link.url">{{ link.text }}</a>
+                    </li>
+                </ul>
+
+                <div class="flex items-center ml-4 pl-4 border-l border-neutral-700 gap-2">
+                    <button @click="setLanguage('en')"
+                        :class="locale === 'en' ? 'bg-emerald-500 text-white px-2 py-1 rounded hover:cursor-pointer' : 'bg-neutral-700 text-white px-2 py-1 rounded hover:cursor-pointer'">EN</button>
+                    <button @click="setLanguage('hu')"
+                        :class="locale === 'hu' ? 'bg-emerald-500 text-white px-2 py-1 rounded hover:cursor-pointer' : 'bg-neutral-700 text-white px-2 py-1 rounded hover:cursor-pointer'">HU</button>
+                </div>
+            </div>
 
         </div>
 
@@ -67,6 +80,14 @@ function handleLinkClick() {
                 <li v-for="link in links"
                     class="hover:bg-neutral-600 px-2 py-3 rounded-xl w-[100%] text-center transition duration-250">
                     <a :href="link.url" @click="handleLinkClick">{{ link.text }}</a>
+                </li>
+                <li class="w-full text-center pt-2">
+                    <div class="flex items-center justify-center gap-2">
+                        <button @click="() => { setLanguage('en'); handleLinkClick(); }"
+                            :class="locale === 'en' ? 'bg-emerald-500 text-white px-2 py-1 rounded hover:cursor-pointer' : 'bg-neutral-700 text-white px-2 py-1 rounded hover:cursor-pointer'">EN</button>
+                        <button @click="() => { setLanguage('hu'); handleLinkClick(); }"
+                            :class="locale === 'hu' ? 'bg-emerald-500 text-white px-2 py-1 rounded hover:cursor-pointer' : 'bg-neutral-700 text-white px-2 py-1 rounded hover:cursor-pointer'">HU</button>
+                    </div>
                 </li>
             </ul>
         </transition>

@@ -1,35 +1,29 @@
 [
-    {
-        "type" : "job",
-        "icon" : "/work/starnetwork.png",
-        "year": "2018-2020",
-        "name": "Star Network MCN.",
-        "subname": "3D modellező és animátor",
-        "data": [
-            "3D animációs filmek készítése"
-        ]
-    },
-    {
-        "type" : "job",
-        "icon" : "/work/katedra.png",
-        "year": "2021-2022",
-        "name": "Katedra Nyelviskola",
-        "subname": "Nyelvvizsga felügyelő/adminisztrátor",
-        "data": [
-            "Írásbeli nyelvvizsgák lebonyolítása",
-            "Adminisztrációs munkák elvégzése"
-        ]
-    },
-    {
-        "type" : "job",
-        "icon" : "/work/verizon.png",
-        "year": "2022-",
-        "name": "Verizon Hungary",
-        "subname": "AI Developement Support Assistant",
-        "data": [
-            "Adatgenerálás AI eszközök fejlesztéséhez",
-            "AI generált adatok validációja",
-            "Adatfeldolgozó szoftver manuális tesztelése"
-        ]
-    }
+  {
+    "id": "starnetwork",
+    "type": "job",
+    "icon": "/work/starnetwork.png",
+    "year": "2018-2020",
+    "name": "Star Network MCN.",
+    "subname": "3D modellező és animátor",
+    "data": ["data_creation"]
+  },
+  {
+    "id": "katedra",
+    "type": "job",
+    "icon": "/work/katedra.png",
+    "year": "2021-2022",
+    "name": "Katedra Nyelviskola",
+    "subname": "Nyelvvizsga felügyelő/adminisztrátor",
+    "data": ["data_supervision", "data_administration"]
+  },
+  {
+    "id": "verizon",
+    "type": "job",
+    "icon": "/work/verizon.png",
+    "year": "2022-",
+    "name": "Verizon Hungary",
+    "subname": "AI Development Support Assistant",
+    "data": ["data_generation", "data_validation", "data_test"]
+  }
 ]

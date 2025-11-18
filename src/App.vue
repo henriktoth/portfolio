@@ -19,37 +19,34 @@ const { t } = useI18n()
 
 <template>
   <Navbar :links="[
-    { text: 'BEMUTATKOZÁS', url: '#' },
-    { text: 'TANULMÁNYOK', url: '#s1' },
-    { text: 'TAPASZTALAT', url: '#s2' },
-    { text: 'TECHNOLÓGIÁK', url: '#s3' },
-    { text: 'PROJEKTEK', url: '#s4' },
+    { text: t('navbar.introduction'), url: '#' },
+    { text: t('navbar.education'), url: '#s1' },
+    { text: t('navbar.experience'), url: '#s2' },
+    { text: t('navbar.technologies'), url: '#s3' },
+    { text: t('navbar.projects'), url: '#s4' },
   ]" />
-  <IntroCard name="Tóth Henrik" description="Programtervező Informatikus szakon tanulok az ELTE Informatikai karán.
-              Már gyerekkorom óta érdeklődtem az informatika világa iránt, és ez ma sincsen másként.
-              Munkámban preciz és alapos vagyok, könnyen dolgozom csapatban, és szeretek érdekes projektekben részt venni.
-              Különösen érdeklődöm a szoftverek kliensoldali fejlesztése iránt."
-    profilePic="/pfp/profile_picture.png" />
+  <IntroCard :name="t('main.name')" :description="t('main.description')" profilePic="/pfp/profile_picture.png" />
+
   <Seperator id="s1" />
-  <Section title="Tanulmányok">
-    <RefCard v-for="(study, index) in studies" :key="index" :type="study.type" :icon="study.icon" :year="study.year"
-      :name="study.name" :subname="study.subname" :data='study.data' />
+  <Section :title="t('sections.sectionTitle.education')">
+    <RefCard v-for="(study, index) in studies" :key="index" :id="study.id" :type="study.type" :icon="study.icon"
+      :year="study.year" :name="t(`study.${study.id}.name`)" :subname="t(`study.${study.id}.subname`)"
+      :data='study.data' />
   </Section>
   <Seperator id="s2" />
-  <Section title="Tapasztalat">
-    <RefCard v-for="(job, index) in jobs" :key="index" :type="job.type" :icon="job.icon" :year="job.year"
-      :name="job.name" :subname="job.subname" :data='job.data' />
+  <Section :title="t('sections.sectionTitle.experience')">
+    <RefCard v-for="(job, index) in jobs" :key="index" :id="job.id" :type="job.type" :icon="job.icon" :year="job.year"
+      :name="t(`job.${job.id}.name`)" :subname="t(`job.${job.id}.subname`)" :data='job.data' />
   </Section>
   <Seperator id="s3" />
-  <Section title="Technológiák"
-    subtitle="Technológiák, melyeket egyetemi feladatok, projektmunkák keretein belül használtam.">
+  <Section :title="t('sections.sectionTitle.technologies')" :subtitle="t('sections.sectionSubtitle.technologies')">
     <TechCard v-for="(tech, index) in techStack" :key="index" :icon="tech.icon" :name="tech.name" />
   </Section>
   <Seperator id="s4" />
-  <Section title="Projektek" subtitle="Alkalmazások, melyeket az egyetemen és szabadidőmben készítettem.">
+  <Section :title="t('sections.sectionTitle.projects')" :subtitle="t('sections.sectionSubtitle.projects')">
     <ProjectCard v-for="(project, index) in projects" :key="index" :name="project.name" :isInDev="project.isInDev"
-      :techStack="project.techStack" :description="project.description" :icon="project.icon" :github="project.github"
-      :demo="project.demo" />
+      :techStack="project.techStack" :description="t(`projects.${project.id}.description`)" :icon="project.icon"
+      :github="project.github" :demo="project.demo" />
   </Section>
   <FooterBar />
 </template>

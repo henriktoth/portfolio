@@ -1,6 +1,10 @@
 <script setup>
 import { Icon } from '@iconify/vue';
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
+
 defineProps({
+    id: String,
     type: String,
     icon: String,
     year: String,
@@ -20,7 +24,7 @@ defineProps({
         <p class="pb-5"> {{ subname }}</p>
         <div>
             <ul class="list-disc pl-5">
-                <li v-for="(item, index) in data" :key="index">{{ item }}</li>
+                <li v-for="(item, index) in data" :key="index">{{ t(`${type}.${id}.${item}`) }}</li>
             </ul>
         </div>
     </div>

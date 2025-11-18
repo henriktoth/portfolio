@@ -1,5 +1,6 @@
 [
   {
+    "id": "burgerco",
     "name": "burger.CO",
     "isInDev": true,
     "techStack": ["mdi:react", "bxl:typescript"],
@@ -9,6 +10,7 @@
     "demo": "https://burgerco.vercel.app/"
   },
   {
+    "id": "safarimanager",
     "name": "Safari Manager",
     "isInDev": false,
     "techStack": [
@@ -22,6 +24,7 @@
     "demo": "https://safarimanager.vercel.app/"
   },
   {
+    "id": "tikera",
     "name": "Tikera",
     "isInDev": false,
     "techStack": ["mdi:react", "ri:javascript-fill"],
@@ -31,6 +34,7 @@
     "demo": "https://tikera-swart.vercel.app/"
   },
   {
+    "id": "railways",
     "name": "Railways",
     "isInDev": false,
     "techStack": ["bx:bxl-html5", "bx:bxl-css3", "ri:javascript-fill"],
@@ -40,6 +44,7 @@
     "demo": "https://railways-iota.vercel.app/"
   },
   {
+    "id": "zoo",
     "name": "Zoo",
     "isInDev": false,
     "techStack": ["mdi:laravel"],
@@ -49,6 +54,7 @@
     "demo": ""
   },
   {
+    "id": "bfschess",
     "name": "BFS Chess",
     "isInDev": false,
     "techStack": ["mdi:language-python"],
@@ -58,6 +64,7 @@
     "demo": ""
   },
   {
+    "id": "labyrinth",
     "name": "Labyrinth",
     "isInDev": false,
     "techStack": ["mdi:language-java"],

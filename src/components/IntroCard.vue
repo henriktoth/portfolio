@@ -27,7 +27,7 @@ onBeforeUnmount(() => {
 <template>
     <div class="m-2 px-4 md:px-15 flex flex-col-reverse md:flex-row justify-around items-center min-h-[85vh] gap-5">
         <div class="flex flex-col gap-3 w-full md:w-[50%] items-center md:items-start">
-            <p class="text-neutral-500">Hello, a nevem:</p>
+            <p class="text-neutral-500">{{ t('main.preText') }}</p>
             <h1 class="text-4xl md:text-6xl lg:text-8xl font-bold text-center md:text-left">{{ name.toUpperCase() }}
             </h1>
             <p class="text-justify max-w-[85%] text-sm md:text-base">{{ description }}</p>
