@@ -1,7 +1,9 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import DarkModeSwitch from './DarkModeSwitch.vue';
+import { useI18n } from 'vue-i18n'
 
+const { t } = useI18n()
 const isNavOpen = ref(false);
 const windowWidth = ref(window.innerWidth);
 
@@ -31,8 +33,8 @@ function toggleNav() {
 }
 
 function handleLinkClick() {
-        isNavOpen.value = false;
-        document.querySelector('#nav-button').textContent = '☰';
+    isNavOpen.value = false;
+    document.querySelector('#nav-button').textContent = '☰';
 }
 </script>
 
@@ -45,12 +47,12 @@ function handleLinkClick() {
                     <p class="text-[12px] bg-neutral-600 p-1 rounded-lg tracking-[0.4em]">TÓTH HENRIK</p>
                 </div>
                 <div class="flex flex-col justify-center">
-                    <DarkModeSwitch class="max-h-[70%]"/>
+                    <DarkModeSwitch class="max-h-[70%]" />
                 </div>
             </div>
             <button id="nav-button" v-if="windowWidth < 900" @click="toggleNav"
                 class="cursor-pointer text-5xl relative bottom-1.5">☰</button>
-            <ul  v-else class="flex gap-3">
+            <ul v-else class="flex gap-3">
                 <li v-for="link in links"
                     class="hover:bg-neutral-600 px-2 py-3 rounded-xl w-[100%] flex items-center text-[14px] transition duration-250">
                     <a :href="link.url">{{ link.text }}</a>
@@ -62,9 +64,10 @@ function handleLinkClick() {
         <transition name="fade">
             <ul v-if="isNavOpen" id="navbar-list" class="bg-neutral-800 m-2 rounded-2xl p-5 flex flex-col items-center text-sm
                 absolute left-0 right-0 top-[100px] z-50">
-            <li v-for="link in links" class="hover:bg-neutral-600 px-2 py-3 rounded-xl w-[100%] text-center transition duration-250">
-                <a :href="link.url" @click="handleLinkClick">{{ link.text }}</a>
-            </li>
+                <li v-for="link in links"
+                    class="hover:bg-neutral-600 px-2 py-3 rounded-xl w-[100%] text-center transition duration-250">
+                    <a :href="link.url" @click="handleLinkClick">{{ link.text }}</a>
+                </li>
             </ul>
         </transition>
     </nav>
