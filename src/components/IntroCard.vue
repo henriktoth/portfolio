@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { useI18n } from 'vue-i18n'
+import { Icon } from '@iconify/vue';
 
 const windowWidth = ref(window.innerWidth);
 const { t } = useI18n()
@@ -31,6 +32,14 @@ onBeforeUnmount(() => {
             <h1 class="text-4xl md:text-6xl lg:text-8xl font-bold text-center md:text-left">{{ name.toUpperCase() }}
             </h1>
             <p class="text-justify max-w-[85%] text-sm md:text-base">{{ description }}</p>
+            <div class="flex gap-2">
+                <a href="https://www.linkedin.com/in/henriktoth" target="_blank">
+                    <Icon :key="index" :icon="'mdi:linkedin'" width="32" height="32" />
+                </a>
+                <a href="https://github.com/henriktoth" target="_blank">
+                    <Icon :key="index" :icon="'mdi:github'" width="32" height="32" />
+                </a>
+            </div>
         </div>
         <div class="w-[300px] md:w-[450px] p-5 profile-border">
             <img :src="profilePic" alt="profile picture" class="w-full h-auto profile-picture">
