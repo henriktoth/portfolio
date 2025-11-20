@@ -70,6 +70,9 @@ export default {
         }
     },
     projects: {
+        techaxis: {
+            description: "A TechAxis is a press site that collects the latest technology news and events. It also has an admin interface where users with different roles can manage news, tasks, and other content. The website is based on React and TypeScript, with a Node.js backend using PostgreSQL database. The application is part of my thesis topic. Currently, the database and authentication system are completed, and API endpoint development is in progress."
+        },
         visalp: {
             description: "VISALP.hu is a Svelte-based website where I upload my own applications focused on productivity and mindfulness. I aim to develop applications that simplify certain tasks, inspire productivity and organization, or promote mindfulness in users' daily lives.",
 

@@ -70,6 +70,9 @@ export default {
         }
     },
     projects: {
+        techaxis: {
+            description: "A TechAxis egy sajtóorgánum, amely a legfrissebb technológiai híreket és eseményeket gyűjti össze. Emellett rendelkezik egy admin felülettel, ahol különböző szerepkörű felhasználók tudják kezelni a híreket, feladatokat és egyéb tartalmakat. A weboldal React és TypeScript alapú, a backend Node.js-t használ PostgreSQL adatbázissal. Az alkalmazás elkészítése a szakdolgozati témám része. Jelenleg az adatbázis és az authentikációs rendszer készült el, az api végpontok fejlesztése folyamatban van.",
+        },
         visalp: {
             description: "A VISALP.hu egy Svelte alapú weboldal, amelyre a saját alkalmazásaimat töltöm fel produktivitás és tudatosság témakörben. Szeretnék olyan alkalmazásokat fejleszteni amelyek bizonyos feladatokat egyszerűbbé tesznek, produktivitásra, rendezettségre inspirálnak, vagy a tudatosságot segítik elő a felhasználók mindennapjaiban.",
         },

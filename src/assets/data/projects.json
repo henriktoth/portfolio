@@ -1,5 +1,20 @@
 [
   {
+    "id": "techaxis",
+    "name": "TechAxis",
+    "isInDev": true,
+    "techStack": [
+      "mdi:react",
+      "bxl:typescript",
+      "mdi:nodejs",
+      "akar-icons:postgresql-fill"
+    ],
+    "description": "A TechAxis egy sajtóorgánum, amely a legfrissebb technológiai híreket és eseményeket gyűjti össze. Emellett rendelkezik egy admin felülettel, ahol különböző szerepkörű felhasználók tudják kezelni a híreket, eseményeket és egyéb tartalmakat. A weboldal React és TypeScript alapú, a backend Node.js-t használ PostgreSQL adatbázissal. Az alkalmazás elkészítése a szakdolgozati témám része. Jelenleg az adatbázis és az authentikációs rendszer készült el, az api végpontok fejlesztése folyamatban van.",
+    "icon": "ooui:newspaper-rtl",
+    "github": "https://github.com/henriktoth/techaxis",
+    "demo": ""
+  },
+  {
     "id": "visalp",
     "name": "VISALP.hu",
     "isInDev": false,
@@ -20,6 +35,16 @@
     "demo": "https://burgerco.vercel.app/"
   },
   {
+    "id": "tikera",
+    "name": "Tikera",
+    "isInDev": false,
+    "techStack": ["mdi:react", "ri:javascript-fill"],
+    "description": "A tikera egy webalkalmazás frontend része, amely egy mozi jegyértékesítő rendszer demo-ját hivatott bemutatni. A felhasználók képesek helyeket foglalni és jegyeket vásárolni a kiválasztott filmre.",
+    "icon": "mdi:movie-open",
+    "github": "https://github.com/henriktoth/tikera",
+    "demo": "https://tikera-swart.vercel.app/"
+  },
+  {
     "id": "safarimanager",
     "name": "Safari Manager",
     "isInDev": false,
@@ -32,16 +57,6 @@
     "icon": "emojione-monotone:lion-face",
     "github": "https://github.com/henriktoth/safarimanager",
     "demo": "https://safarimanager.vercel.app/"
-  },
-  {
-    "id": "tikera",
-    "name": "Tikera",
-    "isInDev": false,
-    "techStack": ["mdi:react", "ri:javascript-fill"],
-    "description": "A tikera egy webalkalmazás frontend része, amely egy mozi jegyértékesítő rendszer demo-ját hivatott bemutatni. A felhasználók képesek helyeket foglalni és jegyeket vásárolni a kiválasztott filmre.",
-    "icon": "mdi:movie-open",
-    "github": "https://github.com/henriktoth/tikera",
-    "demo": "https://tikera-swart.vercel.app/"
   },
   {
     "id": "railways",
