@@ -73,6 +73,9 @@ export default {
         techaxis: {
             description: "A TechAxis is a press site that collects the latest technology news and events. It also has an admin interface where users with different roles can manage news, tasks, and other content. The website is based on React and TypeScript, with a Node.js backend using PostgreSQL database. The application is part of my thesis topic. Currently, the database and authentication system are completed, and API endpoint development is in progress."
         },
+        visalp_fileorganizer: {
+            description: "A FileOrganizer is a Python-based desktop application that helps users organize and categorize files on their computer. The application can recognize different file types (such as documents, images, videos) and move them to appropriate folders. The program has a simple user interface that allows users to quickly and efficiently manage their files.",
+        },
         visalp: {
             description: "VISALP.hu is a Svelte-based website where I upload my own applications focused on productivity and mindfulness. I aim to develop applications that simplify certain tasks, inspire productivity and organization, or promote mindfulness in users' daily lives.",
 

@@ -73,6 +73,9 @@ export default {
         techaxis: {
             description: "A TechAxis egy sajtóorgánum, amely a legfrissebb technológiai híreket és eseményeket gyűjti össze. Emellett rendelkezik egy admin felülettel, ahol különböző szerepkörű felhasználók tudják kezelni a híreket, feladatokat és egyéb tartalmakat. A weboldal React és TypeScript alapú, a backend Node.js-t használ PostgreSQL adatbázissal. Az alkalmazás elkészítése a szakdolgozati témám része. Jelenleg az adatbázis és az authentikációs rendszer készült el, az api végpontok fejlesztése folyamatban van.",
         },
+        visalp_fileorganizer: {
+            description: "A FileOrganizer egy Python alapú asztali alkalmazás, amely segít a felhasználóknak rendszerezni és kategorizálni a számítógépükön található fájlokat. Az alkalmazás képes különböző fájltípusok (például dokumentumok, képek, videók) felismerésére és ezek megfelelő mappákba történő áthelyezésére. A program egyszerű felhasználói felülettel rendelkezik, amely lehetővé teszi a felhasználók számára a fájlok gyors és hatékony kezelését.",
+        },
         visalp: {
             description: "A VISALP.hu egy Svelte alapú weboldal, amelyre a saját alkalmazásaimat töltöm fel produktivitás és tudatosság témakörben. Szeretnék olyan alkalmazásokat fejleszteni amelyek bizonyos feladatokat egyszerűbbé tesznek, produktivitásra, rendezettségre inspirálnak, vagy a tudatosságot segítik elő a felhasználók mindennapjaiban.",
         },

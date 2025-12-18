@@ -15,6 +15,16 @@
     "demo": ""
   },
   {
+    "id": "visalp_fileorganizer",
+    "name": "FileOrganizer",
+    "isInDev": false,
+    "techStack": ["mdi:language-python"],
+    "description": "A FileOrganizer egy Python alapú asztali alkalmazás, amely segít a felhasználóknak rendszerezni és kategorizálni a számítógépükön található fájlokat. Az alkalmazás képes különböző fájltípusok (például dokumentumok, képek, videók) felismerésére és ezek megfelelő mappákba történő áthelyezésére. A program egyszerű felhasználói felülettel rendelkezik, amely lehetővé teszi a felhasználók számára a fájlok gyors és hatékony kezelését.",
+    "icon": "material-symbols-light:folder-copy",
+    "github": "https://github.com/henriktoth/visalp_fileorganizer",
+    "demo": "https://www.visalp.hu/apps/fileorganizer/"
+  },
+  {
     "id": "visalp",
     "name": "VISALP.hu",
     "isInDev": false,
