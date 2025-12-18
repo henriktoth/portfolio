@@ -21,7 +21,7 @@
     "id": "verizon",
     "type": "job",
     "icon": "/work/verizon.png",
-    "year": "2022-",
+    "year": "2022-2025",
     "name": "Verizon Hungary",
     "subname": "AI Development Support Assistant",
     "data": ["data_generation", "data_validation", "data_test"]
