@@ -38,7 +38,7 @@ export default {
         },
         ppke: {
             name: "Pázmány Péter Catholic University",
-            subname: "Bachelor's in Computer Science",
+            subname: "Bachelor's in Communication and Media Studies",
             data_pr: "Public Relations specialization",
             data_scholarship: "National Higher Education Scholarship",
             data_honors: "Graduated Summa Cum Laude",
